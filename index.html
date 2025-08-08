@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catalog</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <img src="dizzy.jpg" class="corner-img" alt="Logo">
+    <h1>Dizzy World</h1>
+    <a href="https://www.instagram.com/dizzy.wrldd/" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </header>
+
+  <main class="container">
+    <!-- Error banner -->
+    <div id="errorBanner" role="alert" aria-live="assertive" class="hidden banner banner-error"></div>
+
+    <!-- Controls -->
+    <section class="controls" aria-label="Filters and search">
+      <div class="control-row">
+        <label for="searchInput" class="visually-hidden">Search products</label>
+      </div>
+
+      <div class="control-row control-grid">
+        <div>
+          <label for="categoryFilter">Categorias</label>
+          <select id="categoryFilter" aria-label="Filtrar por categoria" size="4">
+          </select>
+        </div>
+
+        <div class="checkbox-row">
+          <input id="inStockOnly" type="checkbox" />
+          <label for="inStockOnly">Solo Disponible</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Count / status -->
+    <p id="count" class="count" aria-live="polite">Loading…</p>
+
+    <!-- Grid -->
+    <section id="grid" class="grid" aria-label="Product results"></section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-card" role="document">
+        <button class="modal-close" type="button" aria-label="Close" data-close>&times;</button>
+        <img id="modalImg" alt="" />
+        <div class="modal-body">
+          <h2 id="modalTitle"></h2>
+          <p id="modalDesc" class="muted"></p>
+          <dl class="details">
+            <div><dt>Category</dt><dd id="modalCat"></dd></div>
+            <div><dt>Price</dt><dd id="modalPrice"></dd></div>
+            <div><dt>Availability</dt><dd id="modalStock"></dd></div>
+            <div><dt>Tags</dt><dd id="modalTags"></dd></div>
+            <div><dt>Added</dt><dd id="modalCreated"></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <small>&copy; <span id="year"></span> Dizzy World. <span class="muted">Hecho por sepcon.</span></small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
