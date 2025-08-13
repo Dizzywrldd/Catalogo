@@ -227,6 +227,42 @@
       "tags": [],
       "image": "images/Pinmemeuwu.jpg",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0020",
+      "name": "Pin de Finn y Jake",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pinhda.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0021",
+      "name": "Pin de Wall e y Eva",
+      "description": "",
+      "category": "Pin",
+      "price": 4000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/walle.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0021",
+      "name": "Llavero de Araña",
+      "description": "",
+      "category": "Llavero",
+      "price": 1500.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/llaveroarana.jpg",
+      "createdAt": "2025-08-08"
     }
 
   ],
