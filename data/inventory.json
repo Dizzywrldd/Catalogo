@@ -79,7 +79,7 @@
       "category": "Llavero",
       "price": 3500.0,
       "currency": "CRC",
-      "inStock": true,
+      "inStock": false,
       "tags": [],
       "image": "images/llaverorelic.jpg",
       "createdAt": "2025-08-08"
@@ -187,7 +187,7 @@
       "category": "Anillo",
       "price": 2000.0,
       "currency": "CRC",
-      "inStock": true,
+      "inStock": false,
       "tags": [],
       "image": "images/anillomariposa.jpg",
       "createdAt": "2025-08-08"
@@ -199,7 +199,7 @@
       "category": "Pulsera",
       "price": 2000.0,
       "currency": "CRC",
-      "inStock": true,
+      "inStock": false,
       "tags": [],
       "image": "images/pulsera8.jpg",
       "createdAt": "2025-08-08"
@@ -215,7 +215,20 @@
       "tags": [],
       "image": "images/perry.jpg",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0019",
+      "name": "Pin de This is Fine",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pindememeuwu.jpg",
+      "createdAt": "2025-08-08"
     }
+
   ],
   "meta": {
     "lastUpdated": "2025-08-08"
