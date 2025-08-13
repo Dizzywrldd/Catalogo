@@ -203,6 +203,18 @@
       "tags": [],
       "image": "images/pulsera8.jpg",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0018",
+      "name": "Pin de Perry",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": false,
+      "tags": [],
+      "image": "images/perry.jpg",
+      "createdAt": "2025-08-08"
     }
   ],
   "meta": {
