@@ -287,6 +287,42 @@
       "tags": [],
       "image": "images/Finnchiquito.jpg",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0025",
+      "name": "Pines de Gojo Satoru",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": false,
+      "tags": [],
+      "image": "images/pingojo.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0026",
+      "name": "Pin de Gato",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/pingatillo.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0027",
+      "name": "Pin Spiderkitty",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": false,
+      "tags": [],
+      "image": "images/Pinspiderkitty.jpg",
+      "createdAt": "2025-08-08"
     }
 
   ],
