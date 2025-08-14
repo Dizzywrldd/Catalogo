@@ -263,6 +263,30 @@
       "tags": [],
       "image": "images/llaveroarana.jpg",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0023",
+      "name": "Pin de Spiderman y Deadpool",
+      "description": "",
+      "category": "Pin",
+      "price": 2500.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pinsspiderpool.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0024",
+      "name": "Pin de Finn chiquito",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Finnchiquito.jpg",
+      "createdAt": "2025-08-08"
     }
 
   ],
