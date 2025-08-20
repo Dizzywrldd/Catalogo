@@ -341,7 +341,7 @@
       "name": "Monedero de Kuromi",
       "description": "",
       "category": "Monedero",
-      "price": 3500.00
+      "price": 3500.0
       "currency": "CRC",
       "inStock": true,
       "tags": [],
