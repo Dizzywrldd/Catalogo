@@ -7,8 +7,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Catalog</title>
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -25,18 +24,6 @@
   <main class="container">
     <!-- Error banner -->
     <div id="errorBanner" role="alert" aria-live="assertive" class="hidden banner banner-error"></div>
-
-    <!-- Controls -->
-    <section class="controls" aria-label="Filters and search">
-      <div class="control-row">
-        <label for="searchInput" class="visually-hidden">Search products</label>
-      </div>
-
-      
-
-        
-      </div>
-    </section>
 
     <!-- Count / status -->
     <p id="count" class="count" aria-live="polite">Loading…</p>
@@ -68,7 +55,8 @@
   <footer class="container footer">
     <small>&copy; <span id="year"></span> Dizzy World. <span class="muted">Hecho por sepcon.</span></small>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-  <script src="app.js" defer></script>
+
+  <!-- Only your app script; XLSX not needed here -->
+  <script src="app.js?v=1" defer></script>
 </body>
 </html>

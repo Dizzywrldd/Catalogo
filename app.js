@@ -90,15 +90,15 @@ function showError(msg) {
 }
 
 /* ====== Filtering ====== */
-function applyFilters(allItems, state) {
+function applyFilters(allItems) {
     let items = [...allItems];
 
-    if (state.categories.length && state.categories[0] !== "") {
-        const selected = state.categories[0].toLowerCase();
-        items = items.filter(it => it.category.toLowerCase() === selected);
-    }
+    // if (state.categories.length && state.categories[0] !== "") {
+    //     const selected = state.categories[0].toLowerCase();
+    //     items = items.filter(it => it.category.toLowerCase() === selected);
+    // }
 
-    if (state.inStockOnly) items = items.filter((it) => it.inStock);
+    // if (state.inStockOnly) items = items.filter((it) => it.inStock);
 
     return items;
 }
@@ -239,9 +239,7 @@ function readStateFromControls() {
 }
 
 const run = () => {
-    readStateFromControls();
-    syncStateWithURL(STATE);
-    const items = applyFilters(INVENTORY.items, STATE);
+    const items = applyFilters(INVENTORY.items);
     renderGrid(items);
 };
 
@@ -257,13 +255,9 @@ function bindControls() {
     await loadData();
     renderCategoriesSelect(INVENTORY.items);
 
-    STATE = readStateFromURL();
-    setControlsFromState();
-
-    bindControls();
     setupModalEvents();
 
-    renderGrid(applyFilters(INVENTORY.items, STATE));
+    renderGrid(applyFilters(INVENTORY.items));
 
     document.addEventListener(
         "error",
