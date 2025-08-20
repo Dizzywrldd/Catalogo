@@ -323,7 +323,68 @@
       "tags": [],
       "image": "images/Pinspiderkitty.jpg",
       "createdAt": "2025-08-08"
-    }
+    },
+    {
+      "id": "sku-0028",
+      "name": "Pin de Orgullo y Prejuicio",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pinorgullo.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0029",
+      "name": "Monedero de Kuromi",
+      "description": "",
+      "category": "Monedero",
+      "price": .3500,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/MonederodeKuro.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0030",
+      "name": "Pin Cinnamoroll",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pincinamo.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0031",
+      "name": "Llavero de Araña Roja",
+      "description": "",
+      "category": "Llavero",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Llaveroaranaroja.jpg",
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": "sku-0032",
+      "name": "Pin de Gatito",
+      "description": "",
+      "category": "Pin",
+      "price": 2000.0,
+      "currency": "CRC",
+      "inStock": true,
+      "tags": [],
+      "image": "images/Pingatito.jpg",
+      "createdAt": "2025-08-08"
+    },
+
 
   ],
   "meta": {
