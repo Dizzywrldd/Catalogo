@@ -128,7 +128,7 @@ function formatPrice(p, currency = "USD") {
     try {
         return new Intl.NumberFormat(undefined, { style: "currency", currency }).format(p);
     } catch {
-        return `$${p.toFixed(2)}`;
+        return `₡${p.toFixed(2)}`;
     }
 }
 
