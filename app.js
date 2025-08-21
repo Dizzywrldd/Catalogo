@@ -126,9 +126,9 @@ function renderCategoriesSelect(items) {
 
 function formatPrice(p, currency = "USD") {
     try {
-        return new Intl.NumberFormat(undefined, { style: "currency", currency }).format(p);
+        return new Intl.NumberFormat('es-CR', { style: "currency", currency, minimumFractionDigits: 0, maximumFractionDigits:0 }).format(p);
     } catch {
-        return `₡${p.toFixed(2)}`;
+        return `₡${p}`;
     }
 }
 
