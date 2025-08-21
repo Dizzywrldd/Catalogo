@@ -26,6 +26,7 @@
     --badge-bg: #1f2023;
     --fondo: #D0F0C0;
     --cuadro: #D0F0C0;
+    --color-carta: #FFFFF0;
     color-scheme: dark;
   }
 }
@@ -171,7 +172,7 @@ button:active { transform: translateY(1px); }
   border: 1px solid var(--cuadro);
   border-radius: .75rem;
   overflow: hidden;
-  background: var(--fondo);
+  background: var(--color-carta);
   display: grid;
   grid-template-rows: auto 1fr;
 }
