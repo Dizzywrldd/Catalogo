@@ -1,14 +1,17 @@
 :root {
-  --bg: #ffffff;
-  --text: #111111;
-  --muted: #666666;
-  --surface: #f5f5f7;
-  --border: #e5e7eb;
-  --primary: #0a7cff;
-  --danger: #b00020;
-  --ring: #5b9fff;
-  --badge: #000000;
-  --badge-bg: #e9ecef;
+    --bg: #0b0b0c;
+    --text: #f3f4f6;
+    --muted: #a1a1aa;
+    --surface: #111214;
+    --border: #2a2a2a;
+    --primary: #6aa8ff;
+    --danger: #ff5a75;
+    --ring: #90c2ff;
+    --badge: #f3f4f6;
+    --badge-bg: #1f2023;
+    --fondo: #D0F0C0;
+    --cuadro: #D0F0C0;
+    --color-carta: #FFFFF0;
   color-scheme: light;
 }
 
